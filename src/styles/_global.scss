@@ -1,0 +1,17 @@
+@use 'variables' as variables;
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: variables.$font-size-base;
+}
+
+body {
+  font: variables.$font-size-base variables.$font-family-base;
+}
+
+a {
+  color: inherit;
+}
