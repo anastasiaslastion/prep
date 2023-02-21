@@ -5,6 +5,8 @@ import App from './App';
 import DashboardModule from './components/modules/dashboard/dashboard.component';
 import LearnModule from './components/modules/learn/learn.component';
 import StatisticsModule from './components/modules/statistics/statistics.component';
+import DocsModule from './components/modules/docs/docs.component';
+import ExploreModule from './components/modules/explore/explore.component';
 
 const routerConfig = createBrowserRouter([
     {
@@ -22,6 +24,12 @@ const routerConfig = createBrowserRouter([
     }, {
         path: 'statistics',
         element: <StatisticsModule />
+    }, {
+            path: 'explore',
+            element: <ExploreModule />
+    }, {
+            path: 'docs',
+            element: <DocsModule />
     }]
 }
 ]);
